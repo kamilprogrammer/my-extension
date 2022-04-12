@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+     body {
+        background: #353535;
+        margin: 0;
+      }
+
+      #backgroundImage {
+        border: none;
+        height: 100%;
+        pointer-events: none;
+        position: fixed;
+        top: 0;
+        visibility: hidden;
+        width: 100%;
+      }
+
+      [show-background-image] #backgroundImage {
+        visibility: visible;
+      }
+    </style>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Ramadan tab</title>
+</head>
+<body>
+  <h5>اللهم صلي على سيدنا محمد و على آله و صحبه و سلم</h2>
+  <iframe id="backgroundImage" src="background.jpg"></iframe>
+    <div>
+        <h1 class="firsth1">Ramadan🎉</h1>
+    </div> 
+    <form class="form" action="https://www.google.com/search">
+        <input class="input" type="text" name="q" placeholder="search">
+    </form>
+</body>
+</html>
